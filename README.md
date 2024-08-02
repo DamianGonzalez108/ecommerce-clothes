@@ -1,8 +1,16 @@
-# React + Vite
+# Ecommerce Clothes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##### `Dev - Damian Gonzalez`
 
-Currently, two official plugins are available:
+<div>
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/React-Dark.svg" width="50"> 
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Vite-Dark.svg"  width="50">
+     <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Npm-Dark.svg"  width="50">
+      <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg"  width="50">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Descripcion
+Proyecto de ecommerce de ropa, utilizando firebase como base de datos y aplicando librerias para su funcionamiento 
+
+## Dependencias
+`yup` `react-toastify` `react-router-dom` `react-icons` `firebase`
