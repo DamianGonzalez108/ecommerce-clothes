@@ -1,0 +1,7 @@
+.imgCart{
+    width: 25%;
+}
+.divCardCart{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+.navBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  background-color: #ffffff85;
+}
+.divLogo {
+  width: 15%;
+  height: 15vh;
+}
+.imgLogo {
+  height: 15vh;
+  width: 100%;
+}
+.divh1{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title1{
+    margin: 0;
+    font-size: 22px;
+}

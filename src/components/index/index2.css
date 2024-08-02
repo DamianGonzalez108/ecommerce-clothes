@@ -1,0 +1,46 @@
+.containerMain {
+  background-image: url("/pexels-lee-chinyama-92380529-11049239.webp");
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleMain {
+  color: #ffffffb0;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+.divTxtMain {
+  width: 50%;
+  text-align: center;
+}
+.txtMain {
+  color: #ffffffb0;
+}
+.divButtonMain {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 20px;
+}
+.buttonMain {
+  padding: 5px;
+  font-size: 18px;
+  background-color: #ffffffb0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  width: 25%;
+}
+.buttonMain:hover {
+  background-color: white;
+  scale: 1.01;
+}
