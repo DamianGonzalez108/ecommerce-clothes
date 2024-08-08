@@ -2,10 +2,13 @@ import Item from "./Item";
 
 import "./itemList.css"
 
-const ItemList = ({ products }) => {
+const ItemList = ({ products, search }) => {
   return (
     <div className="itemList">
-      {products.map((product) => (
+      {products.filter((product) => {
+        return search.toLowerCase() === "" ? product : product.name.toLowerCase().includes(search);
+      })
+      .map((product) => (
         <Item  key={product.id} product= {product} />
       ))}
     </div>

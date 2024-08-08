@@ -1,0 +1,9 @@
+.linkCart{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+.linkCart:hover{
+    scale: 1.08;
+}

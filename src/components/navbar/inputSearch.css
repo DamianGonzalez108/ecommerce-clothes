@@ -1,0 +1,26 @@
+.divInputSearch{
+    width: 40%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+}
+.inputSearch{
+    font-size: 20px;
+    width: 90%;
+    height: 6vh;
+    border: 1px solid transparent;
+    outline: none;
+}
+.inputSearch::-webkit-search-cancel-button{
+    display: none;
+}
+.buttonSearch{
+    border: 1px solid transparent;
+    background-color: white;
+}
+.buttonSearch :hover{
+    border-radius: 3px;
+    border: 1px solid black
+}

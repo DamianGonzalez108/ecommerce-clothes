@@ -3,6 +3,7 @@ import { createContext, useState } from "react";
 const CartContext = createContext();
 
 const CartProvider = ({ children }) => {
+  const [search, setSearch] = useState("");
   const [cart, setCart] = useState([]);
 
   const addCart = (newProduct) => {
@@ -47,7 +48,7 @@ const deleteProductForId = (idProduct) => {
 }
 
   return (
-    <CartContext.Provider value={{ cart, addCart, quantityTotal, deleteAll, deleteProductForId, totalPrice}}>
+    <CartContext.Provider value={{ cart, addCart, quantityTotal, deleteAll, deleteProductForId, totalPrice, search, setSearch}}>
       {children}
     </CartContext.Provider>
   );

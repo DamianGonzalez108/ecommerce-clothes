@@ -1,4 +1,4 @@
-import { BsHandbagFill } from "react-icons/bs";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
@@ -12,8 +12,8 @@ const CartWidget = () => {
     let quantity = quantityTotal()
 
   return (
-    <Link to="/cart">
-        <BsHandbagFill size={30} />
+    <Link to="/cart" className="linkCart">
+        <HiOutlineShoppingBag  size={35} color="black" />
         <p>{quantity >=1 && quantity}</p>
     </Link>
   )
